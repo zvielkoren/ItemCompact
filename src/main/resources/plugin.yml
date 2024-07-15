@@ -1,0 +1,4 @@
+name: ItemCompact
+version: '${project.version}'
+main: com.zvicraft.itemcompact.ItemCompact
+api-version: '1.20'
