@@ -1,17 +1,13 @@
-package com.zvicraft.itemcompact;
+package com.zvicraft.itemcompact
 
-import org.bukkit.plugin.java.JavaPlugin;
+import org.bukkit.plugin.java.JavaPlugin
 
-public final class ItemCompact extends JavaPlugin {
-
-    @Override
-    public void onEnable() {
+class ItemCompact : JavaPlugin() {
+    override fun onEnable() {
         // Plugin startup logic
-
     }
 
-    @Override
-    public void onDisable() {
+    override fun onDisable() {
         // Plugin shutdown logic
     }
 }
